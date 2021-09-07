@@ -16,6 +16,8 @@ Tested with:
 
 ## Notes
 
+#Vectornav
+
 When you open a terminal, you need to do:
 source ~/startRos2.sh
 
@@ -33,6 +35,8 @@ The files you should check are:
 The second one has the port and rate.
 
 When you change something, you need to do 'colcon build' at the workspace root.
+
+#
 
 
 
