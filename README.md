@@ -16,7 +16,7 @@ Tested with:
 
 ## Notes
 
-#Vectornav
+#Vectornav (bug You need to put the Up extreme in sleep mode and wake it again in order to connecting to the IMU)
 
 When you open a terminal, you need to do:  
 ```source ~/startRos2.sh```
@@ -38,7 +38,7 @@ When you change something, you need to do 'colcon build' at the workspace root.
 
 #Start Start the moteus_node and monitor them in rviz.
 
-**terminal 1**
+**terminal 1**  
 ```source ~/startRos2.sh```
 
 ```cd ros2_ws/k3lso/```
@@ -55,6 +55,8 @@ When you change something, you need to do 'colcon build' at the workspace root.
 ```source install/setup.bash```  
 
 ```ros2 launch k3lso_robot k3lso_rviz_monitor.launch.py```  
+
+
 
 
 
