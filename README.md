@@ -38,18 +38,22 @@ When you change something, you need to do 'colcon build' at the workspace root.
 
 #Start rviz enable tau
 
+**terminal 2**
+```source ~/startRos2.sh```
 
-source ~/startRos2.sh
+```cd ros2_ws/k3lso/```
 
-cd ~/ros2_ws/k3lso3_ws/
+```source install/setup.bash```
 
-source install/setup.bash
-
-ros2 run k3lso_moteus k3lso_moteus_node
+```ros2 run k3lso_moteus k3lso_moteus_node```
 
 terminal 2
 
 ros2 launch k3lso_description k3lso_rviz.launch.py
+
+
+ros2 service call /k3lso_moteus/set_torque k3lso_msgs/srv/MotorsSetTorque "{ids: [10,11,12], joint_names: [], state: [false, false, false]}"
+
 
 
 
