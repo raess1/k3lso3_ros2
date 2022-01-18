@@ -36,8 +36,20 @@ The second one has the port and rate.
 
 When you change something, you need to do 'colcon build' at the workspace root.
 
-#
+#Start rviz enable tau
 
+
+source ~/startRos2.sh
+
+cd ~/ros2_ws/k3lso3_ws/
+
+source install/setup.bash
+
+ros2 run k3lso_moteus k3lso_moteus_node
+
+terminal 2
+
+ros2 launch k3lso_description k3lso_rviz.launch.py
 
 
 
