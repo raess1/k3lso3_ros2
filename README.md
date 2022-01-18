@@ -29,8 +29,8 @@ And run the node:
 ```ros2 run k3lso_vectornav k3lso_vectornav```  
 
 The files you should check are:  
-~/ros2_ws/k3lso3_ws/src/k3lso3_ros2/k3lso_vectornav/src/k3lso_vectornav_node.cpp  
-~/ros2_ws/k3lso3_ws/src/k3lso3_ros2/k3lso_vectornav/src/rt/rt_vectornav.cpp  
+``` ~/ros2_ws/k3lso/src/k3lso3_ros2/k3lso_vectornav/src/k3lso_vectornav_node.cpp```   
+``` ~/ros2_ws/k3lso/src/k3lso3_ros2/k3lso_vectornav/src/rt/rt_vectornav.cpp```   
 
 The second one has the port and rate.  
 
