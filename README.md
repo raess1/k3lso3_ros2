@@ -38,7 +38,7 @@ When you change something, you need to do 'colcon build' at the workspace root.
 
 #Start rviz enable tau
 
-**terminal 1**
+**terminal 1**  
 ```source ~/startRos2.sh```
 
 ```cd ros2_ws/k3lso/```
