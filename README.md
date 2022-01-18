@@ -70,12 +70,3 @@ Disable torque torque:
 
 
 
-
-
-
-
-ros2 service call /k3lso_moteus/set_torque k3lso_msgs/srv/MotorsSetTorque "{ids: [10,11,12], joint_names: [], state: [false, false, false]}"
-
-
-
-
