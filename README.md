@@ -56,6 +56,18 @@ When you change something, you need to do 'colcon build' at the workspace root.
 
 ```ros2 launch k3lso_robot k3lso_rviz_monitor.launch.py```  
 
+**terminal 2**
+**Services**
+```source ~/startRos2.sh```  
+```cd ros2_ws/k3lso/```  
+```source install/setup.bash```  
+Enable torque:  
+```ros2 service call /k3lso_moteus/set_torque k3lso_msgs/srv/MotorsSetTorque "{ids: [10,11,12], joint_names: [], state: [true, true, true]}"```  
+
+Disable torque torque:  
+```ros2 service call /k3lso_moteus/set_torque k3lso_msgs/srv/MotorsSetTorque "{ids: [10,11,12], joint_names: [], state: [false, false, false]}"```  
+
+
 
 
 
