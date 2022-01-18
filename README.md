@@ -38,16 +38,16 @@ When you change something, you need to do 'colcon build' at the workspace root.
 
 #Start rviz enable tau
 
-**terminal 2**
+**terminal 1**
 ```source ~/startRos2.sh```
 
 ```cd ros2_ws/k3lso/```
 
 ```source install/setup.bash```
 
-```ros2 run k3lso_moteus k3lso_moteus_node```
+```ros2 run k3lso_moteus k3lso_moteus_node```  
 
-terminal 2
+terminal 2  
 
 ros2 launch k3lso_description k3lso_rviz.launch.py
 
