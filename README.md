@@ -38,7 +38,7 @@ When you change something, you need to do 'colcon build' at the workspace root.
 
 #Start rviz enable tau
 
-**terminal 1**  
+**terminal 1** (Start the moteus_node)  
 ```source ~/startRos2.sh```
 
 ```cd ros2_ws/k3lso/```
@@ -47,7 +47,7 @@ When you change something, you need to do 'colcon build' at the workspace root.
 
 ```ros2 run k3lso_moteus k3lso_moteus_node```  
 
-**terminal 2 **  
+**terminal 2** (Start rviz and monitor of joint.)    
 ```source ~/startRos2.sh```  
 
 ```cd ros2_ws/k3lso/```  
