@@ -19,14 +19,14 @@ Tested with:
 #Vectornav
 
 When you open a terminal, you need to do:  
-source ~/startRos2.sh
+```source ~/startRos2.sh```
 
 Then go to the workspace and enable it:  
-cd ~/ros2_ws/k3lso3_ws/  
-source install/setup.bash  
+```cd ~/ros2_ws/k3lso```  
+```source install/setup.bash```  
 
 And run the node:  
-ros2 run k3lso_vectornav k3lso_vectornav
+```ros2 run k3lso_vectornav k3lso_vectornav```  
 
 The files you should check are:  
 ~/ros2_ws/k3lso3_ws/src/k3lso3_ros2/k3lso_vectornav/src/k3lso_vectornav_node.cpp  
@@ -36,9 +36,9 @@ The second one has the port and rate.
 
 When you change something, you need to do 'colcon build' at the workspace root.  
 
-#Start rviz enable tau
+#Start Start the moteus_node and monitor them in rviz.
 
-**terminal 1** (Start the moteus_node)  
+**terminal 1**
 ```source ~/startRos2.sh```
 
 ```cd ros2_ws/k3lso/```
