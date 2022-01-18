@@ -49,9 +49,14 @@ When you change something, you need to do 'colcon build' at the workspace root.
 
 **terminal 2 **  
 ```source ~/startRos2.sh```  
+
 ```cd ros2_ws/k3lso/```  
+
 ```source install/setup.bash```  
+
 ```ros2 launch k3lso_robot k3lso_rviz_monitor.launch.py```  
+
+
 
 
 
